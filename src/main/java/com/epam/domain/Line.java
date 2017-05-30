@@ -8,8 +8,8 @@ public final class Line {
 		this.content = content;
 	}
 
-	public String getContent() {
-		return content;
+	public void print() {
+		System.out.println(this.content);
 	}
 
 }
